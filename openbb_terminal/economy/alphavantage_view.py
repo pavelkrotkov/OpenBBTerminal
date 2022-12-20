@@ -89,7 +89,7 @@ def realtime_performance_sector(
             marker_color=colors,
         )
         fig.update_layout(yaxis_title="Sector", yaxis=dict(dtick=1))
-        #fig.show()
+        # fig.show()
         return fig.json()
 
     export_data(

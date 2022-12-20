@@ -118,7 +118,7 @@ def show_macro_data(
                 f"{parameter_label} of {country_label}{denomination} [{parameter_units}]"
             )
 
-    #fig.show()
+    # fig.show()
     return fig.json()
 
     df_rounded.columns = ["_".join(column) for column in df_rounded.columns]
@@ -207,7 +207,7 @@ def show_treasuries(
             name=f"{col_label[0]} [{col_label[1]}]",
         )
 
-    #fig.show()
+    # fig.show()
     return fig.json()
     # theme.style_primary_axis(ax)
 

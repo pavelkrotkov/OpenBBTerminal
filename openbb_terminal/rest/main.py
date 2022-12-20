@@ -41,9 +41,9 @@ def access_sdk(request: Dict[str, Any]):
         raise HTTPException(status_code=400, detail="No 'trailmap' key included")
     if not isinstance(cleaned.raw, bool):
         raise HTTPException(status_code=400, detail="Key 'raw' mut be a boolean")
-    #if not cleaned.raw:
+    # if not cleaned.raw:
     #    raise HTTPException(status_code=401, detail="Raw must be true for now")
-    cleaned.raw 
+    cleaned.raw
 
     final_func = openbb
     for index, item in enumerate(target_list):

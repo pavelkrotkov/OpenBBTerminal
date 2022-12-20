@@ -101,9 +101,8 @@ def show_indices(
                     name=label,
                 )
 
-    #fig.show()
+    # fig.show()
     return fig.json()
-
 
     if raw:
         print_rich_table(
