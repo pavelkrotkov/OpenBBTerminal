@@ -357,6 +357,7 @@ stocks.dps.sidtc,openbb_terminal.stocks.dark_pool_shorts.stockgrid_model.get_sho
 stocks.dps.psi_sg,openbb_terminal.stocks.dark_pool_shorts.stockgrid_model.get_short_interest_volume,openbb_terminal.stocks.dark_pool_shorts.stockgrid_view.short_interest_volume
 stocks.dps.shorted,openbb_terminal.stocks.dark_pool_shorts.yahoofinance_model.get_most_shorted,
 stocks.disc.arkord,openbb_terminal.stocks.discovery.ark_model.get_ark_orders,
+stocks.disc.heatmap,,openbb_terminal.stocks.discovery.finviz_view.display_heatmap
 stocks.disc.ipo,openbb_terminal.stocks.discovery.finnhub_model.get_ipo_calendar,
 stocks.disc.pipo,openbb_terminal.stocks.discovery.finnhub_model.get_past_ipo,
 stocks.disc.fipo,openbb_terminal.stocks.discovery.finnhub_model.get_future_ipo,
