@@ -106,5 +106,6 @@ def display_heatmap(timeframe: str, export: str = ""):
             color="white",
         ),
     )
-
+    # return to jsos
+    return fig.to_json()
     fig.show()
