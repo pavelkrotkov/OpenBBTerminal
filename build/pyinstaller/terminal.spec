@@ -134,6 +134,7 @@ exe_kwargs = dict(
     disable_windowed_traceback=False,
     target_arch="x86_64",
     codesign_identity=None,
+    # codesign_identity="8C330715890B3EBFCCA734BD9F4BFBE6D73B367E",
     entitlements_file=None,
 )
 
@@ -171,7 +172,7 @@ if is_win:
     exe_kwargs["icon"] = (os.path.join(os.getcwd(), "images", "openbb_icon.ico"),)
 
 if is_darwin:
-    exe_kwargs["icon"] = (os.path.join(os.getcwd(), "images", "openbb.icns"),)
+    exe_kwargs["icon"] = os.path.join(os.getcwd(), "images", "openbb.icns")
 
 exe = EXE(*exe_args, **exe_kwargs)
 

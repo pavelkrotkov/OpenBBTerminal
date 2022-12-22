@@ -280,8 +280,8 @@ def check_for_updates() -> None:
 
 
 def check_valid_versions(
-    latest_version: Union[version.LegacyVersion, version.Version],
-    current_version: Union[version.LegacyVersion, version.Version],
+    latest_version: Union[version.Version],
+    current_version: Union[version.Version],
 ) -> bool:
     if (
         not latest_version

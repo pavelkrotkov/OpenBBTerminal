@@ -84,7 +84,7 @@ Riskfolio-Lib = {version = "^3.1.1", optional = true}
 ccxt = "^1.91.60"
 html5lib = "^1.1"
 feedparser = "^6.0.10"
-pyinstaller = {version = "^4.10", optional = true}
+pyinstaller = {version = "^5.7", optional = true}
 jupyterlab-code-formatter = {version = "^1.4.10", optional = true}
 jupyterlab-lsp = {version = "^3.10.1", optional = true}
 jedi-language-server = {version = "^0.35.1", optional = true}
